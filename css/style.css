@@ -2,13 +2,19 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Card spacing */
+/* Card spacing + slight shadow */
 .card {
     margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 /* Footer styling */
 footer {
     margin-top: 20px;
     background-color: #f2f2f2;
+}
+
+/* Center headings */
+h2 {
+    text-align: center;
 }
