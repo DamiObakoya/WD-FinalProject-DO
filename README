@@ -1,0 +1,34 @@
+# Campus Sports Hub
+
+## Description
+Campus Sports Hub is a multi-page web application designed to display campus sports information including teams, schedules, and players. The goal of this project is to provide an organized and simple way for users to explore sports-related content.
+
+## Technologies Used
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
+- External API (TheSportsDB)
+
+## Features
+- Multiple pages (Home, Teams, Schedule, Players)
+- Navigation between pages
+- Responsive design using Bootstrap
+- JavaScript interactivity
+- API integration (fetching sports data)
+
+## How to Use
+- Open the website using the GitHub Pages link
+- Navigate between pages using the menu at the top
+- View different sections like teams, schedules, and players
+
+## Setup Instructions
+1. Clone the repository
+2. Open the project folder in VS Code
+3. Open index.html in a browser
+
+## Future Improvements
+- Display API data directly on the page instead of console
+- Add images for teams and players
+- Improve styling and layout
+- Add more interactivity (filters, search, etc.)

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Campus Sports Hub</title>
 
-    <!-- Bootstrap (must come first) -->
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- CSS -->
@@ -13,11 +13,10 @@
 
 <body>
 
-<!-- HEADER -->
+<!-- Header -->
 <header class="bg-dark text-white text-center p-3">
     <h1>Campus Sports Hub</h1>
 
-    <!-- NAVIGATION -->
     <nav>
         <a href="index.html" class="text-white mx-2">Home</a>
         <a href="teams.html" class="text-white mx-2">Teams</a>
@@ -26,33 +25,44 @@
     </nav>
 </header>
 
-<!-- MAIN CONTENT -->
-<div class="container mt-4">
+<!-- Main -->
+<main class="container mt-4">
 
-    <h2>Welcome to Campus Sports</h2>
+    <h2 class="text-center mb-4">Welcome to Campus Sports</h2>
 
-    <div class="card p-3">
-        <h3>Featured Team</h3>
-        <p>Placeholder content for featured team</p>
+    <div class="row">
+
+        <div class="col-md-4">
+            <div class="card p-3">
+                <h4>Featured Team</h4>
+                <p>Placeholder content</p>
+                <button class="btn btn-primary" onclick="comingSoon()">View Team</button>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card p-3">
+                <h4>Upcoming Games</h4>
+                <p>Games will appear here</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card p-3">
+                <h4>Live Sports Data</h4>
+                <div id="apiData">Loading...</div>
+            </div>
+        </div>
+
     </div>
 
-    <div class="card p-3">
-        <h3>Upcoming Games</h3>
-        <p>Games will appear here</p>
-    </div>
+</main>
 
-    <div class="card p-3">
-        <h3>Player Spotlight</h3>
-        <p>Player info coming soon</p>
-    </div>
-
-</div>
-
-<!-- FOOTER -->
+<!-- Footer -->
 <footer class="text-center p-3 mt-4 bg-light">
     <p>Campus Sports Hub © 2026</p>
 </footer>
 
 <script src="js/script.js"></script>
 </body>
-</html>  
+</html>
